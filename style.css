@@ -1,0 +1,43 @@
+#container{
+    width: 100%;
+}
+
+#myCanvas{
+    border:black 3px solid;
+    float: right;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+#colorPalette {
+    position: absolute;
+    top: 90px;
+    left: 200px;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#myJSONData{
+    position: absolute; 
+    left: 560px;
+    top: 200px; 
+    width: 60%;
+    height: 90px;
+}
+
+#colorPicker{
+    position: absolute; 
+    left: 110px;
+    top: 100px;
+    width:3%;
+}
+
